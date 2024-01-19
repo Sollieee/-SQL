@@ -3,7 +3,7 @@ USE employees;
 # Exercise 1
 # Find the average salary of male and female employees in each department.
 SELECT
-    d.dept_name, e.gender, AVG(salary) AS avg_salary
+    d.dept_name, e.gender, AVG(salary) AS avg_salary 
 FROM
     salaries s
         JOIN
